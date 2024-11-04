@@ -1,0 +1,32 @@
+.bottom-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+  }
+  
+  .bottom-bar-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #6c757d;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  
+  .bottom-bar-icon:hover {
+    color: #1a206d;
+  }
+  
+  .bottom-bar-icon span {
+    margin-top: 5px;
+  }
+  
+  .bottom-bar-icon svg {
+    margin-bottom: 2px;
+  }
+  

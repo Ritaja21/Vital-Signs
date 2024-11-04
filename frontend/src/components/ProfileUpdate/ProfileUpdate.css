@@ -1,0 +1,44 @@
+.profile-update {
+    padding: 80px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  input, select {
+    padding: 8px;
+    margin-bottom: 20px;
+    width: 200px;
+  }
+  
+  select, option{
+    width: 220px;
+  }
+
+  button {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #1a206d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    /* width:150px; */
+  }
+  
+  button:hover{
+    background-color: #474da3;
+  }

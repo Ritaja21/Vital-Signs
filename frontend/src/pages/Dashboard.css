@@ -1,0 +1,41 @@
+/* Dashboard container */
+.dashboard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    height: 100vh; /* Adjust height as needed */
+    background-image: url("../assets/Okayama_Red_Cross_Hospital.jpg");
+    background-size: cover;  /* Or use 'cover' for a more complete fill */
+  background-position: center;
+  background-repeat: no-repeat;  /* Prevents tiling */
+  background-attachment: fixed;
+  }
+  
+  /* Card styles */
+  .card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px; /* Adjust width as needed */
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  

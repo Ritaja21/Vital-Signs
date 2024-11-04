@@ -1,0 +1,114 @@
+/* Navbar Container */
+* {
+  margin: 0;
+}
+
+.navbar {
+  top: 0;
+  position: fixed;
+  z-index: 100;
+  width: 96%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a206d;
+  padding: 15px 30px;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+
+  /* Adjust this size as needed */
+  .navbar {
+    width: 95%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a206d;
+    padding: 15px 30px;
+    margin: 0;
+
+  }
+
+}
+
+@media (max-width: 710px) {
+
+  /* Adjust this size as needed */
+  .navbar {
+    width: 90%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a206d;
+    padding: 15px 30px;
+    margin: 0;
+
+  }
+
+}
+
+@media (max-width: 343px) {
+
+  /* Adjust this size as needed */
+  .navbar {
+    width: 80%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a206d;
+    padding: 15px 30px;
+    margin: 0;
+
+  }
+
+}
+
+@media (max-width: 342px) {
+
+  /* Adjust this size as needed */
+  .navbar {
+    width: 80%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a206d;
+    padding: 15px 30px;
+    margin: 0;
+
+  }
+
+}
+
+/* Logo */
+.navbar-logo h1 {
+  color: white;
+  font-size: 24px;
+  margin: 0;
+}
+
+/* Links */
+.navbar-links {
+  list-style: none;
+  display: flex;
+
+}
+
+.navbar-links li {
+  margin-left: 20px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #f2a365;
+}
